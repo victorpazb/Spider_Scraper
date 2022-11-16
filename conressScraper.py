@@ -17,8 +17,14 @@ def scraperDeutados(gender):
 
         
             index += 1
-            xpathSFulltring = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
-            driver.find_element(By.XPATH, xpathSFulltring).click()
+            xpathSFullString = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
+            driver.find_element(By.XPATH, xpathSFullString).click()
+            
+
+            #congressMan = driver.find_element(By.XPATH, xpathSFullString).click()
+            #congressMan.get_attribute(name)
+            #congressMan.get_attribute(id)
+            #congressMan.get_attribute(telefone)
 
             ### Here is the moment to capture the data of each congressman/ woman
 
@@ -26,21 +32,6 @@ def scraperDeutados(gender):
             # for i in x:
             #    x.getBlauFlow
             ##### ==============================================================
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     url = 'https://www.camara.leg.br/deputados/quem-sao/resultado?search=&partido=&uf=&legislatura=56&sexo='+gender
@@ -51,21 +42,20 @@ def scraperDeutados(gender):
     parentElement = driver.find_element(By.XPATH, '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul')
     elementList = parentElement.find_elements(By.CLASS_NAME, 'lista-resultados__item')
 
-    complement = '&pagina='
-    genString = ""
     
     if(gender == "F"):
         maxPages = 5
-        genString = ' DEPUTADAS'
     else:
         maxPages = 22
-        genString = ' DEPUTADOS'
-
+        
+    
     x = len(elementList)
     getEveryCongressman(url, x)        
         
     
     
+    complement = '&pagina='
+    genString = ""    
     pagina = 2
     while(pagina < maxPages): ##there is 22 pages for congressman or 4 pages for congresswoman
         
@@ -75,16 +65,16 @@ def scraperDeutados(gender):
         assert 'Busca de Deputados na Câmara dos Deputados - Portal da Câmara dos Deputados' in driver.title
 
         parentElement = driver.find_element(By.XPATH, '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul')
-        elementList = (parentElement.find_elements(By.CLASS_NAME, 'lista-resultados__item')) ##aqui temos a captura da lista de uma pagina, nesse ponto podemos passar um 
+        elementList = (parentElement.find_elements(By.CLASS_NAME, 'lista-resultados__item')) 
         
         y = len(elementList)
-                                                                                                ## loop nessa sublista e tirar o que queremos. e segue normalmente.
-        getEveryCongressman(updatedUrl, y)                                                                               ## fiz dessa forma apenas pra ver que esta pegando todos os deputados
+                                                                                                
+        getEveryCongressman(updatedUrl, y)                                                                               
         
         pagina+=1
         
         
-    #return arquivo.csv
+    #return arquivo.csv?
     
     
 
