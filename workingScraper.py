@@ -91,3 +91,4 @@ scraperDeutados(homens)
 mulheres = 'F'
 scraperDeutados(mulheres)
 
+
