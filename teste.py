@@ -9,18 +9,24 @@ def scraperDeutados(gender):
 
 
     def getEveryCongressman(updatedUrl, sizeOfList): 
-        index = 1
+        index = 0
         while(index < sizeOfList):
         
             driver.get(updatedUrl)
             assert 'Busca de Deputados na Câmara dos Deputados - Portal da Câmara dos Deputados' in driver.title
 
         
-        
-            xpathSFulltring = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
-            print(xpathSFulltring)
-            driver.find_element(By.XPATH, xpathSFulltring).click()
             index += 1
+            xpathSFulltring = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
+            driver.find_element(By.XPATH, xpathSFulltring).click()
+
+            ### Here is the moment to capture the data of each congressman/ woman
+
+            # ex: x = driver.find_element(By.XPATH, xpathSFulltring).click()
+            # for i in x:
+            #    x.getBlauFlow
+            ##### ==============================================================
+            
 
 
 
@@ -41,7 +47,6 @@ def scraperDeutados(gender):
 
 
     parentElement = driver.find_element(By.XPATH, '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul')
-                                                                                                       
     elementList = parentElement.find_elements(By.CLASS_NAME, 'lista-resultados__item')
 
     complement = '&pagina='
@@ -55,11 +60,10 @@ def scraperDeutados(gender):
         genString = ' DEPUTADOS'
 
     x = len(elementList)
-    print(str(x) + ' Element List size')
     getEveryCongressman(url, x)        
         
     
-    
+    counter = 1
     pagina = 2
     while(pagina < maxPages): ##there is 22 pages for congressman or 4 pages for congresswoman
         
@@ -72,22 +76,22 @@ def scraperDeutados(gender):
         elementList = (parentElement.find_elements(By.CLASS_NAME, 'lista-resultados__item')) ##aqui temos a captura da lista de uma pagina, nesse ponto podemos passar um 
         
         y = len(elementList)
-        print(str(y) + ' Element List size 2')
                                                                                                 ## loop nessa sublista e tirar o que queremos. e segue normalmente.
         getEveryCongressman(updatedUrl, y)                                                                               ## fiz dessa forma apenas pra ver que esta pegando todos os deputados
         
         pagina+=1
+        counter+=1
         
+    return counter
     
-    
-    print('São ' + str(len(elementList)) + genString) ##aqui podemos colocar pra retornar a lista de deputado(a)s return elementList e daí pra frente usar o pandas
     
 
         
 homens = 'M'    
-scraperDeutados(homens)
+x = scraperDeutados(homens)
 
 
-mulheres = 'F'
-scraperDeutados(mulheres)
+#mulheres = 'F'
+#scraperDeutados(mulheres)
 
+print(x)

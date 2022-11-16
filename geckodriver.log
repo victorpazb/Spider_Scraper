@@ -1788,3 +1788,338 @@ JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unrea
 JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
 1668616875509	Marionette	INFO	Stopped listening on port 34373
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668617007234	Marionette	INFO	Stopped listening on port 42371
+1668617009898	Marionette	INFO	Stopped listening on port 38405
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668617011689	Marionette	INFO	Stopped listening on port 37939
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668627289901	geckodriver	INFO	Listening on 127.0.0.1:50473
+1668627290310	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "36273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevbPT8k"
+Gtk-Message: 16:34:50.349: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668627291472	Marionette	INFO	Marionette enabled
+1668627291478	Marionette	INFO	Listening on port 35465
+Read port: 35465
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36273
+1668627291709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevbPT8k/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36273/devtools/browser/187d2a10-0e87-4a8d-9744-5b075429c418
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+1668627376531	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668627379172	Marionette	INFO	Stopped listening on port 35465
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668627504751	geckodriver	INFO	Listening on 127.0.0.1:50823
+1668627505162	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "56061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuBGSvS"
+Gtk-Message: 16:38:25.202: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668627506294	Marionette	INFO	Marionette enabled
+1668627506300	Marionette	INFO	Listening on port 38187
+Read port: 38187
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56061
+1668627506501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuBGSvS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56061/devtools/browser/e795c7be-484c-4586-8d20-ca64f1424d60
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+1668627543760	Marionette	INFO	Stopped listening on port 38187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668627546135	geckodriver	INFO	Listening on 127.0.0.1:57817
+1668627546542	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "52369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGxcQ1x"
+Gtk-Message: 16:39:06.580: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668627547664	Marionette	INFO	Marionette enabled
+1668627547670	Marionette	INFO	Listening on port 32937
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 32937
+WebDriver BiDi listening on ws://127.0.0.1:52369
+1668627547874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGxcQ1x/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52369/devtools/browser/4edb5e7e-8832-4f19-b1c5-69d5ed62bcc8
+1668627550979	Marionette	INFO	Stopped listening on port 32937
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668627704333	geckodriver	INFO	Listening on 127.0.0.1:33043
+1668627704742	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "44419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKgi8de"
+Gtk-Message: 16:41:44.786: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668627705915	Marionette	INFO	Marionette enabled
+1668627705921	Marionette	INFO	Listening on port 43703
+Read port: 43703
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:44419
+1668627706139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKgi8de/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44419/devtools/browser/0ea1c426-da92-4b3b-a239-66208f2a5c3e
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+1668627900017	geckodriver	INFO	Listening on 127.0.0.1:56321
+1668627900425	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "57661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewX0XIs"
+Gtk-Message: 16:45:00.463: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668627901556	Marionette	INFO	Marionette enabled
+1668627901563	Marionette	INFO	Listening on port 38779
+Read port: 38779
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:57661
+1668627901780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewX0XIs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57661/devtools/browser/462a12b7-4b97-4b73-8e60-fcf507391c89
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unreachable code after return statement
+1668627977360	Marionette	INFO	Stopped listening on port 38779
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
