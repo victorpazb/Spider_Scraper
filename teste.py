@@ -26,6 +26,8 @@ def scraperDeutados(gender):
             # for i in x:
             #    x.getBlauFlow
             ##### ==============================================================
+
+
             
 
 
@@ -63,7 +65,7 @@ def scraperDeutados(gender):
     getEveryCongressman(url, x)        
         
     
-    counter = 1
+    
     pagina = 2
     while(pagina < maxPages): ##there is 22 pages for congressman or 4 pages for congresswoman
         
@@ -80,9 +82,9 @@ def scraperDeutados(gender):
         getEveryCongressman(updatedUrl, y)                                                                               ## fiz dessa forma apenas pra ver que esta pegando todos os deputados
         
         pagina+=1
-        counter+=1
         
-    return counter
+        
+    #return arquivo.csv
     
     
 
@@ -91,7 +93,6 @@ homens = 'M'
 x = scraperDeutados(homens)
 
 
-#mulheres = 'F'
-#scraperDeutados(mulheres)
+mulheres = 'F'
+scraperDeutados(mulheres)
 
-print(x)
