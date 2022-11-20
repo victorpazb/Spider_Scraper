@@ -7,19 +7,30 @@ driver = webdriver.Firefox()
 
 def scraperDeutados(gender):
 
-
     def getEveryCongressman(updatedUrl, sizeOfList): 
-        index = 0
-        while(index < sizeOfList):
-        
-            driver.get(updatedUrl)
-            assert 'Busca de Deputados na Câmara dos Deputados - Portal da Câmara dos Deputados' in driver.title
-
-        
-            index += 1
-            xpathSFullString = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
-            driver.find_element(By.XPATH, xpathSFullString).click()
+            index = 0
+            while(index < sizeOfList):
             
+                driver.get(updatedUrl)
+                assert 'Busca de Deputados na Câmara dos Deputados - Portal da Câmara dos Deputados' in driver.title
+
+            
+                index += 1
+                
+                xpathSFullString = '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li[' + str(index) + ']/div[1]/h3/a'
+                
+                statusXPATH = driver.find_element(By.XPATH, '/html/body/div[2]/div[1]/main/div[5]/div/div/section/ul/li['+ str(index) + ']/div[1]/h3/span').text
+        
+                deputado = driver.find_element(By.XPATH, xpathSFullString)
+                    
+                # se for ex deputado, a página dele n deve ser aberta, nem seu detalhamento. 
+                if(statusXPATH == 'Em exercício' or statusXPATH == 'Suplente que exerceu mandato'):
+                    driver.find_element(By.XPATH, xpathSFullString).click() #abre cada página individual de cada congressista
+                    driver.find_element(By.CLASS_NAME, 'veja-mais__item').click() #abre o detalhamento dele
+                                                
+                                                
+            
+                
 
             #congressMan = driver.find_element(By.XPATH, xpathSFullString).click()
             #congressMan.get_attribute(name)
