@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from time import sleep
 
 driver = webdriver.Firefox()
 
@@ -24,25 +25,24 @@ def scraperDeutados(gender):
                 deputado = driver.find_element(By.XPATH, xpathSFullString)
                     
                 # se for ex deputado, a página dele n deve ser aberta, nem seu detalhamento. 
-                if(statusXPATH == 'Em exercício' or statusXPATH == 'Suplente que exerceu mandato'):
+                if(statusXPATH == 'Em exercício'):
                     driver.find_element(By.XPATH, xpathSFullString).click() #abre cada página individual de cada congressista
-                    driver.find_element(By.CLASS_NAME, 'veja-mais__item').click() #abre o detalhamento dele
-                                                
+                    ]
+                    #CAPTURAR NOME E PRESENÇA
+                    
+                    
+                    driver.find_element(By.XPATH, '/html/body/div[2]/div[1]/main/div[3]/div/div/div[1]/div/section[5]/ul/li[1]/div[2]/a').click() #abre o detalhamento dele
+                    
+                
+                    sleep(1)
+                   
+                    # AQUI COLOCA O FOREACH DE TBODY 
+                    
+                    
+                          
+                    
                                                 
             
-                
-
-            #congressMan = driver.find_element(By.XPATH, xpathSFullString).click()
-            #congressMan.get_attribute(name)
-            #congressMan.get_attribute(id)
-            #congressMan.get_attribute(telefone)
-
-            ### Here is the moment to capture the data of each congressman/ woman
-
-            # ex: x = driver.find_element(By.XPATH, xpathSFulltring).click()
-            # for i in x:
-            #    x.getBlauFlow
-            ##### ==============================================================
 
 
     url = 'https://www.camara.leg.br/deputados/quem-sao/resultado?search=&partido=&uf=&legislatura=56&sexo='+gender
@@ -91,7 +91,7 @@ def scraperDeutados(gender):
 
         
 homens = 'M'    
-x = scraperDeutados(homens)
+scraperDeutados(homens)
 
 
 mulheres = 'F'
