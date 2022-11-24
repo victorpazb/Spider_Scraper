@@ -75,9 +75,38 @@ def scraperDeutados(gender):
                     driver.find_element(
                         By.XPATH, '/html/body/div[2]/div[1]/main/div[3]/div/div/div[1]/div/section[5]/ul/li[1]/div[2]/a').click()
 
+                    
+                    
+                    valuesList = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[2]/div/table/tbody')
+                    allValues = valuesList.find_elements(By.CLASS_NAME, 'detalhe')
+                    
+                    totalGasto = 0
+                    for value in allValues:
+                        array = ((value.text)).split(' ')
+                        index2 = len(array) - 1
+                        pureValue = array[index2].replace('.', '')
+                        pureValue2 = pureValue.split(',')
+                        pureIntValue = int(pureValue2[0])
+                        totalGasto += pureIntValue
+                    
+                    
+
+
+                    
+                    
+                    #esquema usado para pegar todos os valores mes a mes do uso de cotas parlamentares e vendo o quanto foi usado em %
+                    
                     totalCotaParlamentarString = driver.find_element(By.ID, 'totalFinalAgregado').text
                     totalCotaParlamentarArray = totalCotaParlamentarString.split(" ")
-                    dadosCotaParlamentar.append(totalCotaParlamentarArray[1])
+                    valorTotalArray = totalCotaParlamentarArray[1]
+                    valorTotalArray2 = valorTotalArray.replace(',', '')
+                    valorTotalArray3 = valorTotalArray2.replace('.', '')
+                    valorTotalInt = int(valorTotalArray3)
+
+                    percentualUsado = valorTotalInt/totalGasto
+                    saida = str(percentualUsado).split('.')
+                    percentualUsado = saida[0] 
+                    dadosCotaParlamentar.append(percentualUsado)
                 except:
                     dadosCotaParlamentar.append(None)
 
@@ -133,7 +162,7 @@ def scraperDeutados(gender):
     
     complement = '&pagina='
     genString = ""
-    pagina = 22
+    pagina = 2
 
     while(pagina < maxPages):  # there is 22 pages for congressman or 4 pages for congresswoman
 
@@ -159,8 +188,8 @@ homens = 'M'
 scraperDeutados(homens)
 
 
-#mulheres = 'F'
-#scraperDeutados(mulheres)
+mulheres = 'F'
+scraperDeutados(mulheres)
 
 
 
@@ -170,7 +199,6 @@ presenca = pd.Series(dadosDeputadosPresenca)
 cotaParlamentar = pd.Series(dadosCotaParlamentar)
 cotaGabinete = pd.Series(dadosCotaGabinete)
 
-df_deputados = pd.DataFrame({ 'Nome': nomes, 'Presenças no ano': presenca, 'Gênero': gender, 'Total cota parlamentar':  cotaParlamentar, 'Cota disponivel gabinete': cotaGabinete})
+df_deputados = pd.DataFrame({ 'Nome': nomes, 'Presenças no ano': presenca, 'Gênero': gender, 'Total cota parlamentar usada (%)':  cotaParlamentar, 'Cota disponivel gabinete': cotaGabinete})
 
 df_deputados.to_csv('deputados.csv', index=False)
-
